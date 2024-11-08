@@ -4,9 +4,6 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/arm-none-eabi.cmake)
 
 project(example C)
 
-set(STARTUP_SOURCES 
-)
-
 include(ExternalProject)
 ExternalProject_Add(simplelink
     GIT_REPOSITORY      https://github.com/TexasInstruments/simplelink-lowpower-f3-sdk
